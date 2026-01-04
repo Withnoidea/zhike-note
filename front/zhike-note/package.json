@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "pinia": "^2.0.17",
+    "pinia-plugin-persistedstate": "^3.2.3",
     "unplugin-auto-import": "^20.3.0",
     "unplugin-vue-components": "^30.0.0",
     "vue": "^3.2.37",

@@ -31,4 +31,10 @@ export const useThemeStore = defineStore(
     return { isDarkTheme, theme, changeTheme };
   }
   // 自定义存储方式
+  // {
+  //   persist: {
+  //     storage: localStorage, //本地存储
+  //     paths: ["isDarkTheme"], //将isdarktheme持久化存储
+  //   },
+  // }
 );
