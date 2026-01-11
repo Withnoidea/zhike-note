@@ -30,3 +30,33 @@
   ```
 
 ## 项目结构
+
+```
+zhike-note
+├─ front
+│  ├─ package-lock.json
+│  └─ zhike-note
+│     ├─ index.html
+│     ├─ package-lock.json
+│     ├─ package.json
+│     ├─ public
+│     │  └─ favicon.ico
+│     ├─ README.md
+│     ├─ src
+│     │  ├─ App.vue
+│     │  ├─ assets
+│     │  │  └─ logo.svg
+│     │  ├─ components
+│     │  │  └─ toolbar
+│     │  │     └─ MainTopToolbar.vue
+│     │  ├─ main.js
+│     │  ├─ router
+│     │  │  └─ index.js
+│     │  └─ stores
+│     │     ├─ counter.js
+│     │     └─ themeStore.js
+│     └─ vite.config.js
+├─ LICENSE
+└─ README.md
+
+```
