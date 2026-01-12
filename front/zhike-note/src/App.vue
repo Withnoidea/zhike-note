@@ -1,5 +1,6 @@
 <script setup>
 import MainTopToolbar from "@/components/toolbar/MainTopToolbar.vue";
+import LoginModal from "./components/login/LoginModal.vue";
 import { useThemeStore } from "./stores/themeStore";
 import { storeToRefs } from "pinia";
 
@@ -29,5 +30,7 @@ const { theme } = storeToRefs(themeStore);
         </n-layout-content>
       </n-layout>
     </n-layout>
+    <!-- 登录模态框卡片 -->
+    <login-modal />
   </n-config-provider>
 </template>
